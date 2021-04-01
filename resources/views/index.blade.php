@@ -45,25 +45,19 @@
                </button>
             </div>
          </div>
-         <div class="flex px-2 py-6">
-            <a href="#" class="flex-none">
-               <img src="https://source.unsplash.com/200x200/?face&crop=face&v=1" alt="avatar"
-                  class="w-14 h-14 rounded-xl">
-            </a>
-            <div class="mx-4">
+         <div class="flex flex-1 px-2 py-6">
+            <div class="flex-none">
+               <a href="#" class=" ">
+                  <img src="https://source.unsplash.com/200x200/?face&crop=face&v=1" alt="avatar"
+                     class="w-14 h-14 rounded-xl">
+               </a>
+            </div>
+            <div class="w-full mx-4">
                <h4 class="text-xl font-semibold">
                   <a href="#" class="hover:underline">A random title can go here</a>
                </h4>
                <div class="text-gray-600 mt-3 line-clamp-3">Lorem ipsum dolor, sit amet consectetur adipisicing
-                  elit. Dolores ad quas reiciendis eius nihil facere quibusdam eos accusamus, beatae unde
-                  voluptatibus accusantium similique ex explicabo. Nesciunt quam modi velit? Fugit iure officia
-                  commodi aliquid voluptates dicta optio quo tempore atque explicabo ducimus tempora distinctio
-                  corrupti consequatur, laborum reprehenderit officiis veniam necessitatibus totam deleniti
-                  asperiores ullam! Doloremque nesciunt provident voluptatem atque perspiciatis aliquam error
-                  deleniti fugiat, excepturi ipsum, aspernatur architecto, vitae expedita illo odit maiores
-                  dolorum quis? Esse nesciunt, aspernatur tempora voluptatibus consequatur rerum! Repudiandae
-                  tenetur vitae, totam aut illum, explicabo molestiae quas ullam animi sit ut officiis mollitia,
-                  accusantium magni?
+
 
                </div>
                <div class="flex items-center justify-between mt-6">
@@ -77,10 +71,10 @@
                   </div>
                   <div class="flex items-center space-x-2">
                      <div
-                        class="bg-gray-200 text-xxs font-bold uppercase leading-none rounded-full text-center w-28 h-7 py-2 px-4">
+                        class="bg-gray-100 hover:bg-gray-200 text-xxs font-bold uppercase leading-none rounded-full text-center w-28 h-7 py-2 px-4">
                         Open</div>
                      <button
-                        class="relative bg-gray-200 hover:bg-gray-300 leading-none  rounded-full h-7 transition duration-150 ease-in py-2 px-3">
+                        class="relative bg-gray-100 hover:bg-gray-200  border  rounded-full h-7 transition duration-150 ease-in py-2 px-3">
 
                         <svg class="w-4 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
