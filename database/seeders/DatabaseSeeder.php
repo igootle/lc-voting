@@ -38,7 +38,7 @@ class DatabaseSeeder extends Seeder
         Status::factory()->create(['name' => 'Considering', 'classes' => 'bg-purple text-white']);
         Status::factory()->create(['name' => 'In Progress', 'classes' => 'bg-yellow text-white']);
         Status::factory()->create(['name' => 'Implemented', 'classes' => 'bg-green text-white']);
-        Status::factory()->create(['name' => 'Close', 'classes' => 'bg-red text-white']);
+        Status::factory()->create(['name' => 'Closed', 'classes' => 'bg-red text-white']);
 
         Idea::factory(100)->create();
 
